@@ -1,3 +1,19 @@
-body{
-   background-color: black;  
+* {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero-image{
+    background-image: url("./China/rock.png") ;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color:rgb(133,176, 154);
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    width: 100%;
 }
