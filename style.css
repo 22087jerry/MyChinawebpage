@@ -64,3 +64,9 @@ body{
 p{
     font-size: large;
 }
+
+a{
+    margin: auto;
+    margin-left: 200px;
+    text-align: center;
+}
