@@ -25,13 +25,30 @@ img{
 
 .two-column{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 50px;
     width: 80%;
     margin: auto;
     margin-top: 30px;
+    font-size: 20px;
+}
+
+.wall{
+    font-size: 100%;
 }
 
 .info{
     font-size: 1.25em;
+}   
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+body{
+    background-color:rgb(83,104,114);
+    border-style:groove;
+    border-width: 40px;
+    border-color: darkcyan;
 }
